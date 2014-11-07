@@ -2,9 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\code\Player\shoot.js">
     <Files>
-      <File FileName="Assets\code\Player\shoot.js" Line="1" Column="3" />
-      <File FileName="Assets\code\Controles\Joystick.js" Line="47" Column="1" />
-      <File FileName="Assets\code\Controles\controlIzquierdo.js" Line="1" Column="1" />
+      <File FileName="Assets\code\Player\shoot.js" Line="25" Column="1" />
+      <File FileName="Assets\code\Armas\Shoot.js" Line="8" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
