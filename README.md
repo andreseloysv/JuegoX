@@ -3,8 +3,8 @@ JuegoX
 
 Rigth  ---  D
 
-Left   ---  A
+Left    ---  A
 
-Jump   --  Space
+Jump    --  Space
 
 Click on the screen for shoot!
