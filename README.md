@@ -1,9 +1,9 @@
 JuegoX
 ======
 
-Rigth  --  D
+Rigth  ---  D
 
-Left   --  A
+Left   ---  A
 
 Jump   --  Space
 
