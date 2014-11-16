@@ -2,11 +2,11 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\code\bullet\rocket.js">
     <Files>
-      <File FileName="Assets\code\bullet\rocket.js" Line="31" Column="39" />
-      <File FileName="Assets\code\enemies\SoldadoRocket\soldadoRocketController.js" Line="36" Column="1" />
-      <File FileName="Assets\code\Player\soldierController.js" Line="61" Column="2" />
-      <File FileName="Assets\code\GodGame\GodGame.js" Line="1" Column="1" />
-      <File FileName="Assets\code\Armas\Shoot.js" Line="4" Column="1" />
+      <File FileName="Assets\code\bullet\rocket.js" Line="28" Column="26" />
+      <File FileName="Assets\code\enemies\SoldadoRocket\soldadoRocketController.js" Line="53" Column="1" />
+      <File FileName="Assets\code\GodGame\GodGame.js" Line="21" Column="5" />
+      <File FileName="Assets\code\Player\shoot.js" Line="1" Column="1" />
+      <File FileName="Assets\code\Armas\Shoot.js" Line="33" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

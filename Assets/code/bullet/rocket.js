@@ -29,7 +29,7 @@ function  OnCollisionEnter2D(coll: Collision2D){
 	if (coll.gameObject.tag !=  "Enemy"){
 	var distancia=this.transform.position.x - -76.00843;
 	Debug.Log("Choque con: "+coll.gameObject.name);
-		var cloneExplotion=Instantiate(explotion, (this.gameObject.transform.position), Quaternion.identity);
+	var cloneExplotion=Instantiate(explotion, (this.gameObject.transform.position), Quaternion.identity);
 		if (coll.gameObject.name ==  "Player"){
 			//Destroy(coll.gameObject);
 			Debug.Log("Player destruido: ");
@@ -38,4 +38,7 @@ function  OnCollisionEnter2D(coll: Collision2D){
 		Destroy(this.gameObject);
 		Destroy(cloneExplotion,0.5f);
 	}
+	if (coll.gameObject.name ==  "Enemy"){
+			Destroy(coll.gameObject,0.0f);
+		}
 }

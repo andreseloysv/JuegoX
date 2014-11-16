@@ -15,18 +15,18 @@ public var Hadouken : GameObject;
 	function Update () {
 	for (var i = 0; i < Input.touchCount; ++i) {
 			if (Input.GetTouch(i).phase == TouchPhase.Began) {
-				Shoot();
+				ShootHadouken();
 			}
 		}
 		if(Input.GetMouseButtonDown(0)){
-			Shoot();
+			ShootHadouken();
 		}
 	}
 	
-	function Shoot () {
-		CrearBala();
+	function ShootHadouken() {
+		CrearBalaHadouken();
 	}
-function CrearBala(){
+function CrearBalaHadouken(){
 	// instanciamos la bala
 	var auxtransform=transform.position;
 	auxtransform.x+=0.25;

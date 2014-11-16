@@ -15,8 +15,8 @@ function Update () {
 	clonarme();
 }
 function clonarme(){	
-//	if(GameObject.FindGameObjectsWithTag("Enemy").length<18){		
-//		var posicion =new Vector2(Player.transform.position.x+(Random.Range(5.0, 10.0)),Player.transform.position.y+(Random.Range(10.0, 10.0)));
-//		Instantiate(Soldierclone, posicion, Quaternion.identity);
-//	}
+	if(GameObject.FindGameObjectsWithTag("Enemy").length<2){		
+		var posicion =new Vector2(Player.transform.position.x+(Random.Range(5.0, 10.0)),Player.transform.position.y+(Random.Range(10.0, 10.0)));
+		Instantiate(Soldierclone, posicion, Quaternion.identity);
+	}
 }

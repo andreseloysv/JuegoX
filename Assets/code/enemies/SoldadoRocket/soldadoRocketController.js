@@ -24,14 +24,14 @@
 	
 	// Update is called once per frame
 	function Update () {
-	for (var i = 0; i < Input.touchCount; ++i) {
-			if (Input.GetTouch(i).phase == TouchPhase.Began) {
-				Shoot();
-			}
-		}
-		if(Input.GetMouseButtonDown(0)){
-			Shoot();
-		}
+//	for (var i = 0; i < Input.touchCount; ++i) {
+//			if (Input.GetTouch(i).phase == TouchPhase.Began) {
+//				Shoot();
+//			}
+//		}
+//		if(Input.GetMouseButtonDown(0)){
+//			Shoot();
+//		}
 	}
 	
 	

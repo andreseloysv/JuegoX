@@ -305,7 +305,7 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 391913336}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: d91d3d2f23e4d440ba750ecb1db8705d, type: 3}
+  m_Texture: {fileID: 2800000, guid: c262959c6c971d442b05991875c5cdfc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: .501960814}
   m_PixelInset:
     serializedVersion: 2
@@ -690,7 +690,7 @@ Camera:
   far clip plane: 100
   field of view: 60
   orthographic: 1
-  orthographic size: 2
+  orthographic size: .800000012
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -860,7 +860,7 @@ Transform:
   m_GameObject: {fileID: 1307491173}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -75.8570633, y: -.394894868, z: -.99942112}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: .800000012, y: .800000012, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 14
