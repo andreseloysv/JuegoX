@@ -13,8 +13,12 @@ function Start()
 
 function Update() 
 {
+	if(target.position.x>-87){
 	thisTransform.position.x = Mathf.SmoothDamp( thisTransform.position.x, 
 		target.position.x, velocity.x, smoothTime);
+	}
+	
 	thisTransform.position.y = Mathf.SmoothDamp( thisTransform.position.y, 
-		target.position.y, velocity.y, smoothTime);
+		target.position.y+0.5, velocity.y, smoothTime);
+		
 }
